@@ -1,0 +1,204 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Class
+% Version 1.0
+%
+% This class originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Mizar Nevelli
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\usepackage{multicol}
+\setlength{\columnsep}{0mm}
+%----------------------------------------------------------------------------------------
+\usepackage{lipsum}  
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.35\textwidth} 
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	{ \fontsize{16}{20} \textcolor{black}{\textbf{\MakeUppercase{Mizar Nevelli}}}} % First name and last name
+	
+	\vspace{6pt}
+	
+	{\Large Web Developer $\sim$ Engineer} % Career or current job title
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.27\textwidth} % 27% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	 
+    \icon{Phone}{11}{+39 3425021651}\\
+    \icon{MapMarker}{11}{Italy, 25015}\
+	
+\end{minipage}
+\begin{minipage}[t]{0.27\textwidth} % 27% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+    \icon{Envelope}{11}{\href{mailto:mizarnevelli@gmail.com}{mizarnevelli@gmail.com}}
+    \icon{Github}{11}{\href{https://github.com/MizarNevelli}{github.com/MizarNevelli}}
+    \icon{LinkedinSquare}{11}{\href{https://www.linkedin.com/in/mizar-nevelli/}{linkedin.com/in/mizar-nevelli}}
+    
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{1\textwidth}
+    \cvsect{Summary}
+	\vspace{-6pt}
+ 
+    %Dummy text
+    Focused on statistics science at Padua's University in 2012, after which I've worked in Australia and  travelled other 4 countries for one year. From 2016 to 2018 i studied Digital Marketing at Machina Lonati Institute, where I completed an European Technical Degree.
+    My interests moved soon to coding, I then took the opportunity to start at Magma Studio as developer intern during 2018. 
+    Currently based in Italy, I often travel around the globe while working as Frontend Developer.
+    
+\end{minipage}
+
+
+\begin{minipage}[t]{\textwidth}
+    \cvsect{Skills}
+    \vspace{-6pt}
+    \vspace{1mm}
+
+    \begin{minipage}[t]{1\textwidth}
+        \textbf{Technologies:}
+    \end{minipage}
+   
+    \vspace{1mm}
+    \begin{minipage}[t]{0.73\textwidth}
+      HTML, (S)CSS, JavaScript, React, Next, Zustand, Tailwind, Git, Github, Vercel, Postman
+    \end{minipage}
+    \vspace{2mm}
+    
+    \begin{minipage}[t]{1\textwidth}
+        \textbf{Soft Skills:}
+    \end{minipage}
+   
+    \vspace{0.5mm}
+    \begin{minipage}[t]{0.73\textwidth}
+      Communication, teamwork, creativity, accountability, patience
+    \end{minipage}
+    
+\end{minipage}
+ \vspace{2mm}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+\vspace{-10 pt}
+\cvsect{Experience}
+\begin{entrylist}
+	\entry
+        {2022 -- present}
+		{Front end engineer}
+		{\href{https://www.spartantech.it/}{Spartan tech}}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item Completed a full restyling for a luxury watch marketplace powered by Algorand notarization, refactoring old code and improving Core web vitals by 10\%.
+            \item Reached 95\% of customer satisfaction delivering the frontend of an MVP in few months, realizing a custom platform for their medical society.
+            
+            \item  \texttt{Stack: JavaScript, React, Next.js, Tailwind, Zustand, SWR, Git, 
+        Github}.
+        \end{itemize} }
+	\entry
+		{2020 - 2022}
+		{Javascript engineer}
+		{\href{https://www.palmabit.com/}{Palmabit}}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+
+            \item Maintained an automotive management software by progressively communicated with the customers, taking care of their needs at 100\% and developing appropriate new features.
+            \item Cooperated into the development of a new platform for an Italian energy supplier by working in a multi disciplinary team and optimizing Browsers metrics by 20\%.  
+       \item   \texttt{Stack: React, Tailwind, Node.js, Strapi, MongoDB, Git, Gitlab}. \end{itemize} }
+	\entry
+		{2019 - 2020}
+		{Web developer and location analytics consultant}
+		{\href{https://www.jakala.com/}{Jakala}}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item Created a custom geolocation-powered dashboard for an european automotive brand, by analysing customer needs and finding the appropriate solutions using gis \& ESRI technologies.
+            \item Participated in the analysis and development of a custom location-analytics tool for an international client (F\&B) achieving the top 10\% of internal projects.
+            \item Maximized the data collection, delivering new features for an internal project and improving KPI amount by 15\%.
+        \item  \texttt{Stack: Esri API, GIS, JavaScript, Python, Bootstrap, CSS, Html}.\end{itemize}}
+        \entry
+		{2018 \\\footnotesize{Internship}}
+		{Junior developer Intern}
+		{\href{https://magmastudio.red/}{Magma Studio}}
+		{\vspace{-10pt}
+            \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item Marketed a client by connecting the project manager with a known doctor who was interested in creating a platform, increasing the turnover by 20\%.
+            \item Implemented several websites and landing pages as requested by business, following directives from designers and respecting the deadlines by 100\%.
+        
+            \item  \texttt{Stack: Wordpress, Html, CSS, JavaScript, JQuery}.
+        \end{itemize} }
+\end{entrylist}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\vspace{-10 pt}
+\cvsect{Education}
+\begin{entrylist}
+     \entry
+		{2023 - 2024}
+		{Masterz}
+		{Master, remote}
+		{Largest Blockchain Training Hub in Europe}
+   \entry
+		{2018 - 2019}
+		{Web developer Academy}
+		{Bootcamp, remote}
+		{Full stack developer, at "Boolean Careers"}
+	\entry
+		{2016 - 2018}
+		{Technical superior degree}
+		{ITS, Italy}
+		{Marketing technology specialist, at "Machina Lonati" ITS European      degree}
+	
+  \entry
+		{2012 -2013}
+		{Statistics and finance}
+		{University, Italy}
+		{Statistics and finance bachelor at Padua University}
+
+\end{entrylist}
+
+
+
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+\vspace{-10 pt}
+	\cvsect{Languages}
+    \vspace{-6pt}
+    
+    \hspace{26mm} \textbf{English} - fluent, \textbf{ Italian} - native
+
+%----------------------------------------------------------------------------------------
+
+
+
+\end{document}
