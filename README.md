@@ -1,1 +1,1 @@
-# My cv made with latex
+# My cv written with latex
